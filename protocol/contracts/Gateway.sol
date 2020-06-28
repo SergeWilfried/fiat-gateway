@@ -178,7 +178,7 @@ contract Gateway is ChainlinkClient, Ownable {
     }
 
     /// @notice Add a fiat payment method to the gateway.
-    /// @param _displayName A display name. eg. 'WeChat Pay'
+    /// @param _displayName A display name. eg. 'Orange Money'
     /// @param _oracleAddr Address of oracle with bridge to gateway
     /// @param _newMakerJobId New maker job
     /// @param _buyCryptoOrderJobId buyCryptoOrder job
