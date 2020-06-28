@@ -1,4 +1,4 @@
-service: fiat-gateway-ea-paypal
+service: fiat-gateway
 
 custom:
   stage: ${opt:stage, self:provider.stage}
